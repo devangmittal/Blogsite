@@ -1,0 +1,82 @@
+.blog-main-container {
+	display: flex;
+	column-gap: 10px;
+}
+
+.blog-container {
+	width: 75%;
+	padding-left: 20px;
+	text-align: center;
+
+}
+
+.blog-container>input,
+.blog-container>textarea {
+	border: 0;
+	border-radius: 2px;
+	width: 70%;
+	margin-bottom: 10px;
+	font-size: 15px;
+}
+
+
+.blog-container>input::placeholder,
+.blog-container>textarea::placeholder {
+	text-align: center;
+}
+
+.blog-container>input {
+	height: 40px;
+}
+
+.blog-btn {
+	background: #0675c4;
+	color: white;
+	border: 0;
+	border-radius: 2px;
+	width: 40%;
+	padding: 5px 0;
+	font-size: 15px;
+}
+
+.custom-option-container {
+	display: flex;
+	flex-wrap: wrap;
+	width: 25%;
+}
+
+.custom-option-container>div {
+	width: 100%;
+}
+
+.custom-style-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.custom-style-container>section>input {
+	width: 100%;
+	border: 0;
+	margin-top: 5px;
+	padding: 5px;
+}
+
+.custom-style-container>section {
+	width: 100%;
+
+}
+
+.custom-style-container>section>button {
+	background: #0675c4;
+	color: white;
+	border: 0;
+	border-radius: 2px;
+	height: 27px;
+	margin-top: 7px;
+	width: 50px;
+}
+
+.ant-collapse-content-box {
+	padding: 16px 16px 16px 10px !important;
+}

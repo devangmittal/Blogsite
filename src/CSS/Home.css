@@ -1,0 +1,22 @@
+.title {
+	width: 75%;
+	padding-left: 20px;
+}
+
+.title>a {
+	display: block;
+	height: 40px;
+}
+
+.title>div {
+	text-align: center;
+}
+
+.btn-home {
+	margin-top: 20px;
+}
+
+.home-main-container {
+	display: flex;
+	column-gap: 1%;
+}

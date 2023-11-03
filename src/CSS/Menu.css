@@ -1,0 +1,10 @@
+.menu {
+	display: flex;
+	column-gap: 10px;
+	font-size: 15px;
+	padding: 5px;
+}
+
+.menu>a {
+	color: #eee;
+}

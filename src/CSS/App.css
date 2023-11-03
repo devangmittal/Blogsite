@@ -1,0 +1,25 @@
+.header {
+	background: #101517;
+	color: white;
+	text-align: right;
+	padding: 5px 100px;
+	font-size: 13px;
+}
+
+.header>a {
+	color: #eee;
+}
+
+.navbar {
+	background: #23282d;
+	display: flex;
+	color: white;
+	justify-content: space-between;
+	padding: 10px 100px;
+
+}
+
+.routing {
+	margin: 40px 100px 40px 100px;
+	padding: 5px;
+}
